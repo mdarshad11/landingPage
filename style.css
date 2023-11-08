@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+/* font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Ubuntu&display=swap');
+/* font-family: 'DM Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.topleft{
+    width: 50%;
+    height: 50vh;
+
+}
+
+.topright{
+    width: 50%;
+    height: 50vh;
+
+}
+
+.section1{
+    height: 53.5vh;
+}
+
+.my-1{
+    margin-top: 125pxpx;
+    margin-bottom: 13px;
+}
+
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+ 
+.text-color{
+    color: rgb(54, 46, 43);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.btn{
+    padding: 4px 12px;
+    background-color: rgb(91 76 69);
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.topright .gymimg{
+    width: 300px;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+.section2 h2{
+    padding: 10px 0px;
+}
+ 
+.section2{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 22vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box ul{
+    list-style: none;
+    padding-top: 15px;
+}
+
+.box ul li{
+    margin: 2px 12px;
+}
+
+.section2 h2{
+    border-bottom: 2px solid black;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    font-weight: bolder;
+
+}
